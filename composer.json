@@ -4,9 +4,9 @@
 	"minimum-stability": "dev",
 	"licence": "proprietary",
 	"require": {
-	"uniqueUserNameee/DolgoSrok"
+	"uniqueUserNameee/DolgoSrok": "dev-master"
 	},
-	"autoload":{
-		"classmap": ["src"]
+	"autoload": {
+	"classmap": ["src"]
 	}
 }
