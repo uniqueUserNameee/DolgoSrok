@@ -5,13 +5,13 @@
 	"licence": "proprietary",
 	"require": {
 	"uniqueUserNameee/DolgoSrok"
-	}
+	},
 	"authors":[
 	{
 		"name": "uniqueUserNameee",
 		"email": "prorovalan@mail.ru"
 	}
-	]
+	],
 	"autoload":{
 		"classmap": ["src"]
 	}
