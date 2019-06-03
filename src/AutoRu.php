@@ -86,7 +86,7 @@ class AutoRu {
 				if ($pageCode) {
 					$page = 1;
 					$temp = $this->ParsingAutoRu($pageCode);
-					while ($temp[0]['Марка и модель'] == '') {
+					while (!empty($temp[0]['Марка и модель']) == '') {
 						echo "<pre>";
 						echo $page.' страница';
 						echo "<br>";
